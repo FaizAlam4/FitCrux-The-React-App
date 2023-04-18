@@ -7,25 +7,13 @@
     
 }
 
-/* .fi{
-    
-} */
-/* @keyframes example {
-    0%   {font-size: small;}
-    25%  {font-size: smaller;}
-    50%  {font-size: medium;}
-    100% {font-size: default;}
-  } */
+
 .cf{
     margin: 9.25rem auto;
     border-radius: 7px;
   
 }
 
-/* #fg{
-    animation-name: example;
-    animation-delay: 2s;
-} */
 
 #fc:hover{
     transform: rotateZ(2deg);

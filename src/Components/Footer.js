@@ -1,10 +1,10 @@
 import './Footer.css'
 
-function Footer(){
+function Footer() {
 
-    const curYear=new Date().getFullYear();
+  const curYear = new Date().getFullYear();
 
-return <footer className='foot'> 
+  return <footer className='foot'>
     <p id='fid'>  Copyright ©️ {curYear} </p>
   </footer>
 }
