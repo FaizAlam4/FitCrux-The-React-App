@@ -15,8 +15,9 @@
 }
 
 
+
 #fc:hover{
-    transform: rotateZ(2deg);
+    /* transform: rotateZ(2deg); */
 }
 .card-img-top{
     width: auto;
@@ -26,7 +27,8 @@
 
 
 .card-img-top:hover{
-    transform: rotateZ(2deg);
+    /* transform: rotateZ(2deg); */
+    scale: 1.03;
 }
 
 
@@ -37,4 +39,21 @@
    
     
 }
+@media only screen and (max-width: 767px) {
+   #fc{
+   margin-top: 30px;
+  
+  }
+  }
+@media only screen and (max-width: 1200px) {
+   #fc{
+   margin-top: 45px;
+  
+  }
+  }
+  @media only screen and (max-width: 536px) {
+   #fc{
+    margin-top: 75px;
+   }
+  }
 
