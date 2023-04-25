@@ -15,6 +15,7 @@ function App() {
     <Router>
     <div className="App">
       <Heading />
+      
       <Routes>   
           <Route path="/about" element={<About />} />
           <Route path="/FitCrux-The-React-App" element={<Home/>} />

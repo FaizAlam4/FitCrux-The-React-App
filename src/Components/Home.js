@@ -37,6 +37,7 @@ function Home() {
   var pat3 = life;
 
   return <div className='fl'>
+    {/* <div className='bl'></div> */}
     <h1 id='fc' style={{ fontWeight: "bold", width: "50%", }}><FontAwesomeIcon id="fi" icon={element} /> &nbsp; <span><div style={{display:"inline", backgroundColor:"#dc3545",borderRadius:"5rem", padding:"5px"}}>Fit</div>Crux</span> </h1>
     <div className='cf'> <Card name="Exercise" content={str1} site={pat1} ico={ex} /></div>
     <div className='cf'> <Card name="Diet" content={str2} site={pat2} ico={ex1} /></div>

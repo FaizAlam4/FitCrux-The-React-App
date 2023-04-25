@@ -1,4 +1,13 @@
 .App {
   text-align: center;
+  /* background-color: rgba(234, 211, 211, 0.151); */
 }
+
+/* .bl{
+  background-color: rgb(220, 172, 109);
+  height: 300px;
+  width: 300px;
+border-radius: 50%;
+z-index: -1;
+} */
 
