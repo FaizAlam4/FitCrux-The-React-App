@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/FitCrux-The-React-App/static/css/main.03814849.css",
-    "main.js": "/FitCrux-The-React-App/static/js/main.2472f46a.js",
+    "main.css": "/FitCrux-The-React-App/static/css/main.3043db53.css",
+    "main.js": "/FitCrux-The-React-App/static/js/main.34f22fd2.js",
     "static/js/787.a676f994.chunk.js": "/FitCrux-The-React-App/static/js/787.a676f994.chunk.js",
     "static/media/exer.jpg": "/FitCrux-The-React-App/static/media/exer.bb3d648e0815020f6dc8.jpg",
     "static/media/diet.jpg": "/FitCrux-The-React-App/static/media/diet.dd8625f0d1f5307ccdac.jpg",
     "static/media/lifestyle.jpg": "/FitCrux-The-React-App/static/media/lifestyle.71841eeb300aa84dfa55.jpg",
     "static/media/gyms1.jpg": "/FitCrux-The-React-App/static/media/gyms1.ebb95d3eb36f12291643.jpg",
+    "static/media/abtpic12.png": "/FitCrux-The-React-App/static/media/abtpic12.3f84232aad21b1482c59.png",
     "index.html": "/FitCrux-The-React-App/index.html",
-    "main.03814849.css.map": "/FitCrux-The-React-App/static/css/main.03814849.css.map",
-    "main.2472f46a.js.map": "/FitCrux-The-React-App/static/js/main.2472f46a.js.map",
+    "main.3043db53.css.map": "/FitCrux-The-React-App/static/css/main.3043db53.css.map",
+    "main.34f22fd2.js.map": "/FitCrux-The-React-App/static/js/main.34f22fd2.js.map",
     "787.a676f994.chunk.js.map": "/FitCrux-The-React-App/static/js/787.a676f994.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03814849.css",
-    "static/js/main.2472f46a.js"
+    "static/css/main.3043db53.css",
+    "static/js/main.34f22fd2.js"
   ]
 }
