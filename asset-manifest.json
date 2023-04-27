@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FitCrux-The-React-App/static/css/main.61fc07af.css",
+    "main.css": "/FitCrux-The-React-App/static/css/main.af0f4b64.css",
     "main.js": "/FitCrux-The-React-App/static/js/main.7aec6672.js",
     "static/js/787.a676f994.chunk.js": "/FitCrux-The-React-App/static/js/787.a676f994.chunk.js",
     "static/media/exer.jpg": "/FitCrux-The-React-App/static/media/exer.bb3d648e0815020f6dc8.jpg",
@@ -9,12 +9,12 @@
     "static/media/gyms1.jpg": "/FitCrux-The-React-App/static/media/gyms1.ebb95d3eb36f12291643.jpg",
     "static/media/abtpic12.png": "/FitCrux-The-React-App/static/media/abtpic12.3f84232aad21b1482c59.png",
     "index.html": "/FitCrux-The-React-App/index.html",
-    "main.61fc07af.css.map": "/FitCrux-The-React-App/static/css/main.61fc07af.css.map",
+    "main.af0f4b64.css.map": "/FitCrux-The-React-App/static/css/main.af0f4b64.css.map",
     "main.7aec6672.js.map": "/FitCrux-The-React-App/static/js/main.7aec6672.js.map",
     "787.a676f994.chunk.js.map": "/FitCrux-The-React-App/static/js/787.a676f994.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61fc07af.css",
+    "static/css/main.af0f4b64.css",
     "static/js/main.7aec6672.js"
   ]
 }
