@@ -40,21 +40,25 @@
    
     
 }
-@media only screen and (max-width: 767px) {
-   #fc{
-   margin-top: 30px;
-  
-  }
-  }
+
 @media only screen and (max-width: 1200px) {
    #fc{
-   margin-top: 45px;
+   margin-top: 40px;
   
   }
   }
-  @media only screen and (max-width: 536px) {
+
+  @media only screen and (max-width: 768px) {
+    #fc{
+    margin-top: 103px;
+   
+   }
+   }
+
+
+  @media only screen and (max-width: 546px) {
    #fc{
-    margin-top: 75px;
+    margin-top: 95px;
    }
   }
 

@@ -54,13 +54,13 @@ border-radius: 4px;
   
 }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   header{
-  height: 6rem;
+  height: 8rem;
 
 }
 }
-@media only screen and (max-width: 536px) {
+@media only screen and (max-width: 546px) {
   header{
   height: 8rem;
 
