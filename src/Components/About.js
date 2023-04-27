@@ -17,7 +17,7 @@ with workouts, tips, and guidance too
 your goals are achievable, it's true.</p>
 </div>
 <div className='ac' id='ac3'>
-    <ul>Why FitnessCrux ?
+    <ul>Why FitCrux ?
         <hr />
     <li>Free to use</li>
     <li>Home Workout plan</li>

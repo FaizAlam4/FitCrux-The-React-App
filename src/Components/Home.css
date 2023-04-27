@@ -3,13 +3,13 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-  
-    
+
+    min-height: 100vh;
 }
 
 
 .cf{
-    margin: 9.25rem auto;
+    margin: 10.5rem auto;
     border-radius: 7px;
  
 }
@@ -35,7 +35,7 @@
 
 #fc{
     position: absolute;
-    top: 78px;
+    top: 90px;
     color: azure;
    
     
