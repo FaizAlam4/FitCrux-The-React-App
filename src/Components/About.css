@@ -2,14 +2,82 @@ h1{
     color: aliceblue;
    
 }
+*{
+  /* box-sizing: border-box; */
+}
 
 #abtimg{
-    width: 50%;
-    height: 480px;
+  /* position:relative; */
+    width: auto;
+    height: 550px;
+    object-fit: cover;
+
+    /* top: 0px;
+    right: 30%; */
+    position:relative;
+    top:60px;
 }
 
 #abt{
-  background-color: rgba(246, 242, 242, 0.667);
- 
+  background-color: rgba(246, 242, 242, 0.621);
+ display: flex;
+ flex-flow: row wrap;
+align-items: center;
+justify-content:flex-start;
+}
 
+
+
+.ac{
+  margin: 60px;
+  
+}
+
+#ac2{
+  border: 2px solid rgba(210, 210, 221, 0.941);
+  border-radius: 35px;
+  box-shadow: inset 0 0 10px #fcc0c0;
+  width: 18rem;
+  color: rgb(118, 101, 101);
+  font-weight: bold;
+  padding: 25px;
+  text-align: justify;
+  background-color: rgb(252, 252, 253);
+  line-height: auto;
+  font-size: large;
+ 
+  
+}
+#ac2:hover{
+  background-color: #dc3545;
+  color: white;
+}
+#ac3:hover{
+  background-color: #dc3545;
+  color: white;
+}
+#ac3{
+  border: 2px solid rgba(210, 210, 221, 0.941);
+  border-radius: 35px;
+  box-shadow: inset 0 0 10px #fcc0c0;
+  width: 18rem;
+  
+  color: rgb(118, 101, 101);
+  font-weight: bold;
+  padding: 25px;
+  text-align: justify;
+  background-color: rgb(252, 252, 253);
+  line-height: auto;
+  font-size: large;
+}
+
+@media only screen and (max-width:1244px) {
+  #ac1{
+    border-radius: 45px;
+  
+   position:relative;
+    bottom: 60px;
+    
+  }
+ 
 }
