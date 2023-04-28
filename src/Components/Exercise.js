@@ -12,9 +12,10 @@ return <div className='cds'><Comps key={nfinal.id} name={nfinal.name} imsrc={nfi
 
 function Exercise() {
     const [search,setSearch]=useState('');
+    const [ans,setAns]=useState(true);
     const [nfinal,setNfinal]=useState([]);
-const ans="*Not found*";
 
+    const comment="**NOT FOUND**";
    const seeSearch= async()=>{
     if(search){
         const exerdata= await fetchData('https://exercisedb.p.rapidapi.com/exercises',exeroptions);
@@ -26,7 +27,8 @@ const ans="*Not found*";
             // const nf=searchedExercises.map((e)=>{return e.name});
             // setNfinal(nf);
 setNfinal(searchedExercises);
-         
+if(searchedExercises.length===0)
+setAns(false);
     }
    }
 
@@ -39,10 +41,10 @@ setNfinal(searchedExercises);
      <br /> <br />
      <button className='btn btn-danger' onClick={seeSearch}>submit</button>
      <div className='conts'>
-     { !(nfinal.length===0)? nfinal.map(createComp):ans}
+     { (ans)? nfinal.map(createComp):comment}
      </div>
     </div>
   )
 }
 
-export default Exercise
+export default Exercise;
