@@ -9,7 +9,7 @@
     flex-flow: row wrap;
     /* max-width: 1240px; */
     align-items: center;
-    justify-items: flex-start;
+    justify-content:center;
    
 
 }
