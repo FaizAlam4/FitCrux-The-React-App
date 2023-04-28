@@ -9,14 +9,14 @@
     flex-flow: row ;
     align-items: center;
     width: 60%;
-    height: 50px;
+    min-height: 200px;
     margin: 300px auto;
     margin-top: 120px;
     justify-content: center;
     color: white;
     gap: 3;
     overflow-x:scroll;
-    max-height: 10vh;
+    
 background-color: none;
 /* scrollbar-width: none; */
 

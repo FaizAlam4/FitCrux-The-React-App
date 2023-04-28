@@ -2,7 +2,7 @@ import React from "react";
 import './Login.css';
 
 function Login(){
-    return <div className="conts">
+    return <div className="contss">
        
        <form action="#"> <fieldset> <legend id="lg" style={{paddingTop:"12px"}} >  Join Our Community</legend> <hr />
         

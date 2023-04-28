@@ -13,7 +13,7 @@ return <div className='cds'><Comps key={nfinal.id} name={nfinal.name} imsrc={nfi
 function Exercise() {
     const [search,setSearch]=useState('');
     const [nfinal,setNfinal]=useState([]);
-
+const ans="*Not found*";
 
    const seeSearch= async()=>{
     if(search){
@@ -39,7 +39,7 @@ setNfinal(searchedExercises);
      <br /> <br />
      <button className='btn btn-danger' onClick={seeSearch}>submit</button>
      <div className='conts'>
-     {nfinal.map(createComp)}
+     { !(nfinal.length===0)? nfinal.map(createComp):ans}
      </div>
     </div>
   )
