@@ -1,31 +1,32 @@
 import './Exercise.css';
-import React, {  useEffect,useState } from 'react'
+import React, {  useState } from 'react'
 import {exeroptions, fetchData } from './utils/fetchData';
-import HorizontalScrollbar from './HorizontalScrollbar';
+import Comps from './Comps';
+
+
+
+function createComp(nfinal){
+return <div className='cds'><Comps key={nfinal.id} name={nfinal.name} imsrc={nfinal.gifUrl} /></div>
+}
 
 
 function Exercise() {
     const [search,setSearch]=useState('');
-    const [setExercises]=useState([])
-    const [bodyParts,setBodyParts]=useState([])
-
-    useEffect(()=>{
-        const fetchExercisesData=async ()=>{
-            const bodyPartsData=await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList',exeroptions);
-            setBodyParts(['all',...bodyPartsData])
-        }
-    },[]);
+    const [nfinal,setNfinal]=useState([]);
 
 
    const seeSearch= async()=>{
     if(search){
         const exerdata= await fetchData('https://exercisedb.p.rapidapi.com/exercises',exeroptions);
         const searchedExercises=exerdata.filter(
-            (exercise)=>exercise.name.toLowerCase().includes(search)||exercise.name.toLowerCase().includes(search)||exercise.name.toLowerCase().includes(search)||exercise.name.toLowerCase().includes(search)
+            (exercise)=>exercise.name.toLowerCase().includes(search)
             );
+
             console.log(searchedExercises);
-            setSearch('');
-            setExercises(searchedExercises);
+            // const nf=searchedExercises.map((e)=>{return e.name});
+            // setNfinal(nf);
+setNfinal(searchedExercises);
+         
     }
    }
 
@@ -34,11 +35,11 @@ function Exercise() {
     <div id='exer'>
         <br />
 
-     <input type="text" value={search} placeholder='Search Exercises' onChange={(e)=>{setSearch(e.target.value.toLowerCase())}}/>
+     <input id='inp' type="text" value={search} placeholder='Categories' onChange={(e)=>{setSearch(e.target.value.toLowerCase())}}/>
      <br /> <br />
      <button className='btn btn-danger' onClick={seeSearch}>submit</button>
-     <div>
-      
+     <div className='conts'>
+     {nfinal.map(createComp)}
      </div>
     </div>
   )
