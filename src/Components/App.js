@@ -3,8 +3,9 @@ import Heading from './Heading';
 import Footer from './Footer';
 import Home from './Home';
 import About from './About';
-import Login from './Login';
+import Register from './Register';
 import Exercise from './Exercise';
+import Login from './Login';
 
 import {
   BrowserRouter as Router,
@@ -23,8 +24,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/FitCrux-The-React-App" element={<Home/>} />
           <Route path="/" element={<Home/>} />
-          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
           <Route path="/exercise" element={<Exercise/>} />
+          <Route path="/login" element={<Login/>} />
+         
         </Routes>
    
       <Footer />

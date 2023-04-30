@@ -48,3 +48,5 @@ setAns(false);
 }
 
 export default Exercise;
+
+
