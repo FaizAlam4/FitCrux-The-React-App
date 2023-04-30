@@ -7,7 +7,7 @@ import './Register.css';
 
 function Register(){
     return <div className="contss">
-      <span id="ng"> <a href="./login"> Already Registered? <small style={{backgroundColor:"red"}}>Login here </small> </a></span>
+      <span id="ng"> Already Registered? <small style={{backgroundColor:"red"}}>Go to login !! </small></span>
 
       <form action="#"> <fieldset> <legend id="lg" style={{ paddingTop: "12px" }}>  Join Our Community</legend> <hr />
 
