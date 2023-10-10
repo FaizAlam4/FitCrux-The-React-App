@@ -5,4 +5,4 @@ to be able to see your app on local system ....as running in container is not ex
 
 so while running the container remember to use this 
 
--p <localhost port>:<port where application is running in container> (when runnung from docker)
+-p <localhost port>:<port where application is running in container> (when running from docker)
